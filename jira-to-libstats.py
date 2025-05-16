@@ -30,7 +30,7 @@ def fetch_issues(start_at=0, max_results=50):
         "jql": jql,
         "startAt": start_at,
         "maxResults": max_results,
-        "fields": "summary,description,comment"
+        "fields": "summary,description,comment,attachment"
     }
     headers = {"Accept": "application/json"}
 
