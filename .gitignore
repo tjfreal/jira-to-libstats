@@ -1,0 +1,29 @@
+# Ignore environment variables file
+.env
+
+# Ignore staged data directory
+staged_data/
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore virtual environment directories (if not using conda env in project root)
+# .venv/
+# env/
+# venv/
+
+# Ignore conda environment directory if it's within the project root
+# /conda_env_name/
+
+# Ignore editor/IDE specific files
+.vscode/
+.idea/
+
+# Ignore operating system generated files
+.DS_Store
+Thumbs.db
+
+chroma_data/
+
+libstats.db
